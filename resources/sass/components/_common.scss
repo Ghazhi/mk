@@ -1,0 +1,98 @@
+button[type="button"].menu__icon {
+  width: 3.2rem;
+  height: 2rem;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  border: none;
+  outline: none;
+  position: relative;
+  & > .icon {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0.2rem;
+    border-radius: 9999px;
+    background-color: $white;
+    transition-duration: 0.075s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+    &::before,
+    &::after {
+      position: absolute;
+      width: 100%;
+      height: 0.2rem;
+      background-color: $white;
+      content: "";
+      display: block;
+      border-radius: 9999px;
+    }
+
+    &::before {
+      top: -9px;
+      transition: bottom 0.075s 0.12s ease, opacity 0.075s ease;
+    }
+    &::after {
+      top: 9px;
+      transition: top 0.075s 0.12s ease,
+        transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+  }
+  &.active {
+    & > .icon {
+      background: transparent;
+      &::before,
+      &::after {
+        left: 0.4rem;
+      }
+      &::before {
+        top: -1.05rem;
+        transform: rotate(42deg);
+        transform-origin: left;
+        -webkit-transform-origin: left;
+      }
+      &::after {
+        top: 1.05rem;
+        transform: rotate(-42deg);
+        transform-origin: left;
+        -webkit-transform-origin: left;
+      }
+    }
+  }
+}
+
+.table__header {
+  width: 100%;
+  padding: 0 0 2rem 0;
+  @include flexbox;
+  justify-content: space-between;
+  align-items: center;
+  & > h3 {
+    text-transform: capitalize;
+  }
+}
+.loading__page {
+  width: 100%;
+  height: 100vh;
+  background: $main;
+  &__spinner {
+    @include center;
+    text-align: center;
+    & > p {
+      font-size: 2rem;
+      letter-spacing: 1.2px;
+      color: $white;
+      font-weight: 300;
+      margin-top: 1rem;
+      animation: fadein 0.7s ease-in-out 0.2s infinite forwards alternate;
+    }
+  }
+}
+
+.loader {
+  width: 100%;
+  height: 100;
+  @include center;
+  text-align: center;
+}

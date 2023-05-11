@@ -1,0 +1,373 @@
+.asinyo__checkout {
+  width: 100%;
+  padding: 5rem $container-padding;
+  @include flexbox;
+  justify-content: flex-start;
+  align-items: flex-start;
+  @include respond-down(sm) {
+    flex-direction: column;
+    padding: 4rem $container-padding-sm;
+  }
+  &__main {
+    width: 60%;
+    position: relative;
+    margin-right: 1rem;
+    @include respond-down(xs) {
+      width: 100%;
+      margin-right: 0rem;
+      margin-bottom: 2rem;
+    }
+    & > h4 {
+      color: $text-2;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    &__steps {
+      &__card {
+        @include lineboxshadow;
+        border-radius: $border-radius;
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+        &__header {
+          height: 5rem;
+          padding: 0 1rem;
+          @include flexbox;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+
+          &__left {
+            @include flexbox;
+            justify-content: flex-start;
+            align-items: center;
+            & > h3 {
+              color: $main;
+              font-size: 1.2rem;
+            }
+          }
+          &__right {
+            & > button {
+              background-color: $main;
+              color: $white;
+              font-weight: bold;
+              &:hover {
+                background-color: $secondary;
+                color: $text;
+              }
+            }
+          }
+          &::after {
+            position: absolute;
+            display: block;
+            content: "";
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #a5a5a533;
+          }
+        }
+        &__content {
+          padding: 2rem 3rem;
+          &__address {
+            & > p {
+              font-weight: bold;
+            }
+            & > address {
+              margin-top: 0.5rem;
+              font-style: normal;
+              color: $text-2;
+            }
+          }
+          &__methods {
+            & > p {
+              font-weight: bold;
+            }
+            & > .wrapper {
+              @include flexbox;
+              flex-direction: column;
+              justify-content: flex-start;
+              margin-top: 2rem;
+
+              & .details {
+                margin-left: 3rem;
+                margin-top: -1.5rem;
+                & > p {
+                }
+                & > button {
+                  margin-top: 2rem;
+                  background-color: $secondary;
+                  color: $text;
+                  font-weight: bold;
+                  &:hover {
+                    background-color: $main;
+                    color: $white;
+                  }
+                }
+              }
+              & .summary {
+                &__deliverables {
+                  margin-bottom: 2rem;
+                  position: relative;
+                  &::after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    left: 0;
+                    bottom: -1rem;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #a5a5a533;
+                  }
+                  &__product {
+                    color: $text-2;
+                    padding: 1rem;
+                    & > p {
+                      & > span {
+                        margin-right: 1rem;
+                      }
+                    }
+                  }
+                }
+                &__row {
+                  width: 100%;
+                  @include flexbox;
+                  justify-content: space-between;
+                  align-items: center;
+                  padding: 1rem 0;
+                  &.delivery {
+                    & > span {
+                      &:last-child {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                  &.total {
+                    font-weight: bold;
+                    & > span {
+                      &:last-child {
+                        color: $main;
+                        font-size: 1.6rem;
+                      }
+                    }
+                  }
+                }
+                & > button {
+                  margin-top: 4rem;
+                  background-color: $secondary;
+                  color: $text;
+                  font-weight: bold;
+                  &:hover {
+                    background-color: $main;
+                    color: $white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__summary {
+    width: 40%;
+    margin-left: 1rem;
+    @include respond-down(xs) {
+      width: 100%;
+      margin-left: 0;
+    }
+    & > h4 {
+      color: $text-2;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    &__orders {
+      width: 100%;
+      @include lineboxshadow;
+      border-radius: $border-radius;
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+      &__header {
+        height: 5rem;
+        padding: 0 1rem;
+        @include flexbox;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        color: $main;
+        &__left {
+          @include flexbox;
+          justify-content: flex-start;
+          align-items: center;
+        }
+        &__right {
+          & > button {
+            background-color: $main;
+            color: $white;
+            &:hover {
+              background-color: $secondary;
+              color: $text;
+            }
+          }
+        }
+        &::after {
+          position: absolute;
+          display: block;
+          content: "";
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #a5a5a533;
+        }
+      }
+
+      &__content {
+        padding: 2rem;
+        &__products {
+          position: relative;
+          margin-bottom: 3rem;
+          &::after {
+            position: absolute;
+            display: block;
+            content: "";
+            left: 0;
+            bottom: -1rem;
+            width: 100%;
+            height: 1px;
+            background-color: #a5a5a533;
+          }
+          &__single {
+            @include flexbox;
+            justify-content: flex-start;
+            position: relative;
+            &:not(:last-child) {
+              margin-bottom: 2rem;
+              &::after {
+                position: absolute;
+                display: block;
+                content: "";
+                left: 0;
+                bottom: -1rem;
+                width: 100%;
+                height: 1px;
+                background-color: #a5a5a533;
+              }
+            }
+            & > .image {
+              position: relative;
+              overflow: hidden;
+              width: 6.5rem;
+              height: 6.5rem;
+              & > span > img {
+                width: 100%;
+                height: 100%;
+                border-radius: $border-radius;
+              }
+              @include respond-down(xs) {
+                width: 8rem;
+                height: 8rem;
+              }
+            }
+            & > .details {
+              padding-left: 1rem;
+              color: $text-2;
+              & > .name {
+              }
+              & > .qty {
+              }
+              & > .price {
+                font-weight: bold;
+                color: $main;
+                &.promo > span {
+                  color: $text;
+                  text-decoration: line-through;
+                  margin-left: 0.5rem;
+                  font-weight: 300;
+                }
+              }
+            }
+          }
+        }
+
+        &__row {
+          width: 100%;
+          @include flexbox;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1rem 0;
+          &.delivery {
+            & > span {
+              &:last-child {
+                font-weight: bold;
+              }
+            }
+          }
+          &.total {
+            font-weight: bold;
+            & > span {
+              &:last-child {
+                color: $main;
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+
+        & > .footer {
+          text-align: center;
+          margin-top: 2rem;
+          & > button {
+            background-color: $main;
+            color: $white;
+            font-weight: bold;
+            &:hover {
+              background-color: $secondary;
+              color: $text;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__myaddress {
+    width: 100%;
+    padding: 2rem 0;
+    &__address {
+      padding: 1.3rem;
+      transition: all 0.3s ease-out;
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+        position: relative;
+        &::after {
+          position: absolute;
+          display: block;
+          content: "";
+          left: 0;
+          bottom: -1rem;
+          width: 100%;
+          height: 1px;
+          background-color: #a5a5a533;
+        }
+      }
+      & > p {
+        font-weight: bold;
+      }
+      & > address {
+        font-style: normal;
+      }
+      &:hover,
+      &.active {
+        background-color: #a5a5a518;
+        // @include lineboxshadow;
+        border-radius: $border-radius;
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+@mixin card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing;
+}
+.merchant__card {
+  position: relative;
+  @include card-bg;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in;
+  @include respond-down(xs) {
+    // height: 40rem;
+    // margin: 2rem 0;
+  }
+
+  &__image {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    @include resize-image;
+  }
+  &__content {
+    width: 100%;
+    height: calc(100% - 20rem);
+    padding: 0 0.5rem;
+    @include flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__article {
+      &__header {
+        color: $main;
+        @include card-title;
+        @include ellipsis;
+      }
+      &__cta {
+        display: block;
+        padding: 0.5rem 0;
+        @include respond-down(xs) {
+          display: none;
+        }
+      }
+    }
+    &__link {
+      display: block;
+      margin: 0.5rem;
+      &:hover a > span,
+      &:hover a > span:last-child {
+        color: $secondary;
+      }
+      & > a {
+        @include flexbox;
+        justify-content: flex-start;
+        align-items: center;
+        text-transform: capitalize;
+        letter-spacing: $letter-spacing;
+        position: inherit;
+        & > span {
+          color: $main;
+          font-weight: bold;
+        }
+        & > span:last-child {
+          line-height: 0 !important;
+          font-size: 2rem;
+          color: $main;
+          padding-left: 0.3rem;
+        }
+      }
+      @include respond-down(xs) {
+        // display: none;
+      }
+    }
+  }
+  &:hover {
+    @include boxshadow;
+    background: $white;
+    transform: scale(1.05);
+    transform-origin: center;
+    @include respond-down(xs) {
+      transform: none;
+      // box-shadow: none;
+    }
+  }
+}
+.category__card {
+  @include card-bg;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in;
+  &:hover {
+    @include boxshadow;
+    background: $white;
+    transform: scale(1.05);
+    transform-origin: center;
+    @include respond-down(xs) {
+      transform: none;
+      // box-shadow: none;
+    }
+  }
+  &__image {
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    @include resize-image;
+  }
+  &__link {
+    width: 100%;
+    height: calc(100% - 17rem);
+    padding: 0 0.5rem;
+    @include card-title;
+    @include flexbox;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all 0.3s ease-in;
+    @include ellipsis;
+  }
+  &:hover a {
+    color: $secondary;
+  }
+}
+.product__card {
+  @include card-bg;
+  position: relative;
+  background-color: $white;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in;
+  &:hover {
+    @include boxshadow;
+    background: $white;
+    transform: scale(1.05);
+    transform-origin: center;
+    @include respond-down(xs) {
+      transform: none;
+      // box-shadow: none;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 11rem;
+    position: relative;
+    @include resize-image;
+    @include respond-down(sm) {
+      height: 14.5rem;
+    }
+  }
+  &__content {
+    width: 100%;
+    height: calc(100% - 11rem);
+    @include flexbox;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    position: relative;
+    @include respond-down(sm) {
+      height: calc(100% - 14.5rem);
+    }
+    @include respond-down(xs) {
+    }
+    &__article {
+      width: 100%;
+      height: 69%;
+      // text-align: center;
+      &__title {
+        color: $text;
+        font-weight: bold;
+        text-transform: capitalize;
+        letter-spacing: $letter-spacing;
+        line-height: 1;
+        font-size: 1.3rem;
+        @include ellipsis;
+        &:hover a {
+          color: $secondary;
+        }
+      }
+      &__company {
+        padding: 0.5rem 0;
+        text-transform: lowercase;
+        @include ellipsis;
+        &::first-letter {
+          text-transform: uppercase;
+        }
+        color: $text-2;
+        line-height: 0.2;
+        font-size: 1.03rem;
+        // @include respond-down(xs) {
+        //   padding: 3rem 0;
+        // }
+      }
+      &__cta {
+        padding: 0.5rem 0;
+      }
+    }
+    &__footer {
+      width: 100%;
+      text-align: center;
+      &__weight {
+        width: 100%;
+        font-weight: bolder;
+        color: $main;
+        margin-bottom: 0.5rem;
+        text-transform: lowercase;
+      }
+      &__price {
+        width: 100%;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+        & > .promo > span {
+          color: $text;
+          text-decoration: line-through;
+          margin-left: 0.5rem;
+          font-weight: 300;
+          color: tomato;
+        }
+      }
+    }
+  }
+}
+.parent {
+  width: 20rem;
+}

@@ -1,0 +1,385 @@
+.asinyo__account__wrapper {
+  width: 100%;
+  min-height: calc(
+    100vh - calc(#{$header-height} + #{$nav-height} + #{$footer-height})
+  );
+  margin: 3rem 0;
+  @include flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    margin-bottom: 3rem;
+  }
+  @include respond-down(xs) {
+    padding: 0 $container-padding-sm;
+    margin: 5rem 0;
+  }
+  &__panel {
+    width: 50%;
+    @include box-shadow;
+    padding: 4rem;
+    border-radius: 10px;
+    @include respond-down(xs) {
+      width: 100%;
+      padding: 0;
+      box-shadow: none;
+    }
+    &__form {
+      & > .forgot__password {
+        text-align: end;
+        line-height: 0;
+        text-transform: capitalize;
+        margin-top: 1.3rem;
+        margin-bottom: 3rem;
+        & > a {
+          transition: all 0.2s ease-in;
+          color: $main;
+          text-decoration: underline;
+        }
+        & > a:hover {
+          text-decoration: underline;
+        }
+      }
+
+      & > .divider {
+        position: relative;
+        width: 100%;
+        color: $text;
+        text-align: center;
+        padding: 3rem 0;
+        @include flexbox;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+
+        &::before,
+        &::after {
+          display: inline-block;
+          position: absolute;
+          content: "";
+          width: 45%;
+          height: 1px;
+          background-color: $text;
+        }
+        &::before {
+          left: 0;
+        }
+        &::after {
+          right: 0;
+        }
+      }
+
+      & > .dont__have__an__account {
+        text-align: center;
+        & > a {
+          transition: all 0.2s ease-in;
+          color: $main;
+          text-decoration: underline;
+        }
+        & > a:hover {
+          text-decoration: underline;
+        }
+      }
+
+      & > .verification__code__msg {
+        text-align: center;
+        color: $secondary;
+        font-weight: bold;
+        padding: 4rem 0;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+.asinyo__account__dashboard {
+  width: 100%;
+  padding: 3rem $container-padding;
+  @include flexbox;
+  justify-content: flex-start;
+
+  &__aside {
+    width: 20%;
+    margin-right: 2rem;
+    position: relative;
+    &__nav {
+      list-style-type: none;
+      @include fronend-nav;
+      min-height: 25rem;
+      position: sticky;
+      top: calc(#{$header-height} + 2rem);
+      left: 0;
+    }
+  }
+  &__main {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  &__myaccount {
+    width: 100%;
+    &__header {
+      @include flexbox;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3rem;
+      & > h3 {
+        color: $main-light;
+      }
+      &__right {
+        width: 50%;
+      }
+    }
+
+    &__content {
+      width: 100%;
+      @include flexbox;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: relative;
+      &__left {
+        width: 50%;
+        padding-right: 1rem;
+        &.address--page {
+          @include gridContainer(50%);
+
+          & > .account__details {
+            min-height: 5rem;
+            @include flexbox;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            & > h4 {
+              align-self: stretch;
+              font-weight: bold;
+            }
+            &:not(:last-child) {
+              margin: 0;
+            }
+            @include respond-down(sm) {
+            }
+            @include respond-down(xs) {
+            }
+          }
+        }
+      }
+      &__right {
+        width: 50%;
+        padding-left: 1rem;
+      }
+    }
+
+    & .account__details {
+      padding: 2rem 1rem;
+      @include lineboxshadow;
+      border-radius: $border-radius;
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+      &__header {
+        margin-bottom: 2rem;
+        padding: 0.5rem 0;
+        @include flexbox;
+        justify-content: space-between;
+        align-items: center;
+        & > h4 {
+          text-transform: uppercase;
+          font-weight: 400;
+        }
+      }
+      &__address__type {
+        text-transform: uppercase;
+        border-radius: $border-radius;
+        font-weight: 300;
+        margin-bottom: 1rem;
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+        text-align: center;
+        padding: 0.5rem 0;
+        margin-bottom: 2rem;
+      }
+      &__default {
+        width: 100%;
+        @include flexbox;
+        justify-content: space-between;
+        align-items: center;
+      }
+      &__overview {
+        margin-bottom: 2rem;
+        & > p:last-child {
+          color: $text-2;
+          font-size: 1.1rem;
+        }
+        & > address {
+          color: $text-2 !important;
+          font-size: 1.1rem;
+          font-style: normal;
+        }
+      }
+    }
+
+    & .change__password {
+      width: 50%;
+    }
+  }
+}
+
+.address__book__form {
+  width: 100%;
+  padding: 3rem 0;
+  & > form {
+    & > button {
+      margin-top: 3rem;
+    }
+  }
+}
+
+.account__404__page {
+  width: 100%;
+  height: 50rem;
+  @include flexbox;
+  justify-content: center;
+  align-items: center;
+
+  &__cta {
+    width: 50%;
+    padding-right: 15rem;
+    text-align: center;
+    & > h1 {
+      font-weight: 300;
+      font-size: 5rem;
+    }
+    & > p {
+      margin: 2rem 0 3rem 0;
+      &.sp {
+        text-align: center;
+      }
+    }
+  }
+  &__image {
+    width: 50%;
+    height: 30rem !important;
+    & > span {
+      width: 100%;
+      height: 30rem !important;
+    }
+  }
+}
+
+.storefront {
+  width: 100%;
+  min-height: 20rem;
+  padding-top: 1rem;
+  &__profile {
+    margin-top: 2rem;
+
+    &__header {
+      @include flexbox;
+      justify-content: space-between;
+      align-items: flex-end;
+      position: relative;
+      margin-bottom: 2rem;
+      &__brand {
+        & > h5 {
+          font-size: 1rem;
+          color: #a5a5a5;
+        }
+        & > p {
+          font-size: 2rem;
+        }
+      }
+      &__logo {
+        width: 15rem;
+        height: 10rem;
+        border-radius: $border-radius;
+        overflow: hidden;
+        position: relative;
+        & > span > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #a5a5a533;
+        bottom: -2rem;
+      }
+    }
+    &__article {
+      padding: 2rem 0;
+      &__content {
+        position: relative;
+        margin-bottom: 1rem;
+        & > h5 {
+          font-size: 1rem;
+          color: #a5a5a5;
+        }
+        & > p {
+          // font-size: 2rem;
+        }
+        // &::after {
+        //   position: absolute;
+        //   display: block;
+        //   content: "";
+        //   width: 100%;
+        //   height: 1px;
+        //   background-color: #a5a5a533;
+        //   bottom: -1rem;
+        // }
+      }
+    }
+
+    &__images {
+      & > h5 {
+        font-size: 1rem;
+        color: #a5a5a5;
+        margin-bottom: 1rem;
+      }
+      &__slides {
+        &__slide {
+          width: 20rem;
+          height: 25rem;
+        }
+      }
+    }
+  }
+
+  &__account {
+    width: 100%;
+    @include flexbox;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2rem;
+
+    &__article {
+      &.left {
+        margin-right: 1rem;
+        width: 50%;
+      }
+      &.right {
+        margin-left: 1rem;
+      }
+
+      & h5 {
+        font-size: 1rem;
+        color: #a5a5a5;
+      }
+      & > h5 {
+        margin-bottom: 1.5rem;
+        color: $main;
+        font-size: 1.5rem;
+      }
+      &__content {
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

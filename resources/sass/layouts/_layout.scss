@@ -1,0 +1,10 @@
+.asinyo__layout {
+  width: 100%;
+  min-height: 100vh;
+  &__content {
+    width: 100%;
+    min-height: calc(
+      100vh - calc(#{$header-height} + #{$nav-height} + #{$footer-height})
+    );
+  }
+}

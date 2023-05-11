@@ -1,0 +1,27 @@
+.s__row {
+    width: $max-width;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    & > .s__col {
+        &.c-- {
+            @include grids;
+        }
+        &.cm-- {
+            @include respond-down(md) {
+                @include grids;
+            }
+        }
+        &.cs-- {
+            @include respond-down(sm) {
+                @include grids;
+            }
+        }
+        &.cx-- {
+            @include respond-down(xs) {
+                @include grids;
+            }
+        }
+    }
+}

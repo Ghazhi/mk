@@ -1,0 +1,280 @@
+.asinyo__about {
+  width: 100%;
+  &__banner {
+    width: 100%;
+    height: calc(80vh - calc(#{$header-height} + #{$nav-height}));
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.444),
+        rgba(0, 0, 0, 0.544),
+        rgba(0, 0, 0, 0.644)
+      ),
+      url("/images/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    padding: 0 $container-padding;
+    margin-bottom: $section-space;
+    @include flexbox;
+    flex-direction: column;
+    justify-content: center;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    @include respond-down(xs) {
+      text-align: center;
+      height: calc(85vh - calc(#{$header-height-mobile} + #{$nav-height}));
+      background-position: bottom right;
+    }
+    &__cta {
+      width: 80%;
+      margin-bottom: 6rem;
+      color: $white;
+
+      & > h2 {
+        font-size: $banner-title;
+        font-weight: bold;
+        line-height: 1.1;
+      }
+      & > p {
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: 200;
+      }
+
+      @include respond-down(sm) {
+        width: 85%;
+        margin-bottom: 3rem;
+        & > h2 {
+          font-size: 3rem;
+        }
+        & > p {
+          margin-top: 2rem;
+          font-size: 1.8rem;
+          font-weight: 200;
+        }
+      }
+      @include respond-down(xs) {
+        width: 100%;
+        margin: 4rem 0;
+        & > h2 {
+          font-size: 3rem;
+        }
+        & > p {
+          font-size: 2rem;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+
+  &__cta {
+    padding: 0 $container-padding;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: $section-space;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    @include respond-down(xs) {
+      width: 90%;
+    }
+    & > p {
+      font-size: 3rem;
+      color: $main;
+    }
+  }
+
+  &__cta__description {
+    width: 100%;
+    padding: 0 $container-padding;
+    margin-bottom: $section-space;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    &__wrapper {
+      @include gridContainer(33.33%);
+      @include respond-down(xs) {
+        @include gridContainer(100%);
+      }
+    }
+    &__card {
+      width: 100%;
+      text-align: center;
+      transition: all 0.3s ease-in;
+      & > .icon {
+        font-size: 5rem;
+        color: $secondary;
+      }
+      & > h3 {
+        font-size: 2rem;
+        color: $secondary;
+      }
+      & > p {
+        font-size: 1.6rem;
+      }
+      &:hover {
+        transform: scale(1.2);
+        transform-origin: center;
+      }
+    }
+  }
+
+  &__how__it__works {
+    width: 100%;
+    padding: $section-space $container-padding;
+    margin-bottom: $section-space;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+
+    & > header {
+      text-align: center;
+      margin-bottom: $section-space;
+      & > h1 {
+        @include header;
+        color: $main;
+        font-size: 3rem;
+        &::after {
+          background-color: $secondary;
+        }
+      }
+    }
+
+    &__wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    &__merchants {
+      @include flexbox;
+      justify-content: space-between;
+      align-items: center;
+      &__image__wrapper {
+        width: 30rem;
+        position: relative;
+        display: block;
+        @include respond-down(sm) {
+          display: none;
+        }
+        // &--left {
+        //   margin-right: 25rem;
+        // }
+        // &--right {
+        //   padding-left: 25rem;
+        // }
+      }
+      &:not(:last-child) {
+        margin-bottom: 5rem;
+      }
+      &__image {
+        position: relative;
+        width: 30rem;
+        height: 60rem;
+        @include resize-image;
+      }
+      &__content {
+        &__article {
+          margin-bottom: 2rem;
+          & > h3 {
+            font-size: 1.6rem;
+            color: $secondary;
+          }
+          & > p {
+          }
+        }
+        &__process {
+          list-style-type: none;
+          padding-left: 1rem;
+          & > li {
+            @include flexbox;
+            justify-content: flex-start;
+            align-items: center;
+            & > span {
+              &.icon {
+                font-size: 3rem;
+                color: $secondary;
+                margin-right: 1.5rem;
+              }
+              &.text {
+              }
+            }
+          }
+        }
+        &__benefits {
+          margin-top: 3rem;
+          & > h3 {
+            font-size: 1.6rem;
+            color: $secondary;
+          }
+          & > ul {
+            list-style-type: none;
+            padding-left: 1rem;
+            & > li {
+              @include flexbox;
+              justify-content: flex-start;
+              align-items: center;
+              & > span {
+                &.icon {
+                  font-size: 2rem;
+                  color: $secondary;
+                  margin-right: 1.5rem;
+                }
+                &.text {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__motivation {
+    width: 100%;
+    padding: $section-space $container-padding;
+    background-color: $tertiary;
+    @include respond-down(sm) {
+      padding: $section-space $container-padding-sm;
+    }
+    & > header {
+      margin-bottom: $section-space;
+      & > h1 {
+        @include header;
+        color: $main;
+        font-size: 3rem;
+        &::after {
+          background-color: $secondary;
+          margin: 0;
+        }
+      }
+    }
+    &__article {
+      @include gridContainer(33.33%);
+      @include respond-down(xs) {
+        @include gridContainer(100%);
+      }
+    }
+    &__commitment {
+      @include respond-down(xs) {
+        margin-top: 2rem;
+      }
+      &__images {
+        padding: 2rem 0;
+        @include flexbox;
+        justify-content: flex-start;
+        &__img {
+          position: relative;
+          width: 35rem;
+          height: 28rem;
+          @include resize-image;
+          @include respond-down(xs) {
+            height: 15rem;
+          }
+        }
+      }
+    }
+  }
+}

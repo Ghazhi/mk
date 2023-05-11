@@ -1,0 +1,254 @@
+.asinyo__home {
+  &__banner {
+    width: 100%;
+    height: calc(100vh - calc(#{$header-height} + #{$nav-height}));
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.444),
+        rgba(0, 0, 0, 0.544),
+        rgba(0, 0, 0, 0.644)
+      ),
+      url("/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    padding: 0 $container-padding;
+    margin-bottom: $section-space;
+    @include flexbox;
+    flex-direction: column;
+    justify-content: center;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    &__cta {
+      width: 69%;
+      margin-bottom: 6rem;
+      color: $white;
+      & > h2 {
+        font-size: $banner-title;
+        font-weight: bold;
+        line-height: 1.1;
+      }
+      & > p {
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 1.5;
+      }
+
+      @include respond-down(sm) {
+        width: 85%;
+        margin-bottom: 3rem;
+        & > h2 {
+          font-size: 3rem;
+        }
+        & > p {
+          margin-top: 2rem;
+          font-size: 1.8rem;
+          font-weight: 200;
+        }
+      }
+      @include respond-down(xs) {
+        width: 100%;
+        // margin-bottom: 12rem;
+        text-align: center;
+        & > h2 {
+          // font-size: 5rem;
+        }
+        & > p {
+          margin: 8rem 0;
+          font-size: 2rem;
+          font-weight: 300;
+        }
+      }
+    }
+    @include respond-down(xs) {
+      height: calc(100vh - calc(#{$header-height-mobile} + #{$nav-height}));
+      background-position: top center;
+      text-align: center;
+    }
+  }
+  &__merchant {
+    margin-bottom: $section-space;
+    padding: 0 $container-padding;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    @include respond-down(xm) {
+      padding: 0;
+    }
+    &__header {
+      margin-bottom: 3rem;
+      & > p {
+        font-size: 1.6rem;
+        margin-bottom: 2.5rem;
+      }
+    }
+    &__merchants {
+      @include gridContainer(33.33%);
+      @include respond-down(xs) {
+        @include gridContainer(100%);
+      }
+      &__card {
+        height: 30rem;
+        display: block;
+        @include respond-down(sm) {
+        }
+        @include respond-down(xs) {
+          display: none;
+        }
+      }
+
+      & > .mobile__portrait {
+        width: 100%;
+        display: none;
+        @include respond-down(xs) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &__category {
+    margin-bottom: $section-space;
+    padding: 0 $container-padding;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    &__header {
+      // margin-bottom: 2rem;
+    }
+    &__categories {
+      @include gridContainer(25%);
+      @include respond-down(xs) {
+        @include gridContainer(50%);
+      }
+      &__card {
+        height: $cat-card-height;
+        @include respond-down(sm) {
+        }
+        @include respond-down(xs) {
+          height: $cat-card-height-xs;
+        }
+      }
+    }
+  }
+
+  &__best__seller {
+    padding: 2rem $container-padding;
+    background-color: $tertiary;
+    margin-bottom: $section-space;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    @include respond-down(xs) {
+      padding: 3rem 0;
+      padding-bottom: 5rem;
+    }
+    &__header {
+      @include respond-down(sm) {
+      }
+      @include respond-down(xs) {
+        padding: 0 $container-padding-sm;
+      }
+    }
+    &__products {
+      & > .desktop__screen {
+        @include gridContainer(20%);
+        @include respond-down(xs) {
+          display: none;
+        }
+      }
+      &__card {
+        height: $card-height;
+        display: block;
+        @include respond-down(sm) {
+        }
+        @include respond-down(xs) {
+          display: none;
+        }
+      }
+      & > .mobile__portrait {
+        width: 100%;
+        display: none;
+        @include respond-down(xs) {
+          display: block;
+        }
+        & .mobile__portrait__card {
+          height: $card-height-xs;
+        }
+      }
+    }
+  }
+  &__all__products {
+    margin-bottom: $section-space;
+    padding: 0 $container-padding;
+    @include respond-down(sm) {
+      padding: 0 $container-padding-sm;
+    }
+    @include respond-down(xs) {
+      padding: 0 1rem;
+    }
+    &__header {
+      margin-bottom: 2rem;
+    }
+    &__sub__header {
+      margin-bottom: 2rem;
+    }
+    &__content {
+      @include gridContainer(20%);
+      @include respond-down(xs) {
+        @include gridContainer(50%);
+      }
+      &__card {
+        height: $card-height;
+        @include respond-down(sm) {
+        }
+        @include respond-down(xs) {
+          height: $card-height-xs;
+        }
+      }
+    }
+  }
+
+  &__faq {
+    background-color: $tertiary;
+    padding: 10rem 0;
+    &__content {
+      padding: 0 calc(#{$container-padding} + 10rem);
+      &__header {
+        text-align: center;
+        margin-bottom: 5rem;
+        @include respond-down(xs) {
+          margin-bottom: 4rem;
+        }
+        & > h1 {
+          color: $main;
+          font-size: 1.7rem;
+          font-weight: bold;
+          text-transform: capitalize;
+          letter-spacing: 1.1px;
+          position: relative;
+          display: inline-block;
+          margin-bottom: 0;
+          line-height: 0.5;
+          &::after {
+            position: relative;
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 1px;
+            background-color: $main-light;
+          }
+        }
+      }
+      @include respond-down(sm) {
+        padding: 0 calc(#{$container-padding-sm} + 5rem);
+      }
+      @include respond-down(xs) {
+        padding: 0 calc(#{$container-padding-sm} + 2rem);
+      }
+    }
+  }
+}
