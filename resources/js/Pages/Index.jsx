@@ -21,8 +21,9 @@ export default function Index() {
                                 </div>
                             </div>
                             <div className="carousel-item" style={{ maxHeight: "45rem" }} >
-                                <img src="template/img/banner1.jpg" alt="Image" />
+                                <img src="template/img/bg2.jpg" alt="Image" />
                             </div>
+                            
                         </div>
                         <button
                             className="carousel-control-prev"
@@ -57,11 +58,11 @@ export default function Index() {
                             >
                                 <div className="d-flex">
                                     <div className="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                        <i className="fa fa-times text-primary" />
+                                        <i className="fa fa-check text-primary" />
                                     </div>
                                     <div className="ps-3">
-                                        <h4>No Hidden Cost</h4>
-                                        <span className="text-black">Clita erat ipsum lorem sit sed stet duo justo</span>
+                                        <h4>Integrity</h4>
+                                        <span className="text-black">We operate with high standards.</span>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +78,7 @@ export default function Index() {
                                     </div>
                                     <div className="ps-3">
                                         <h4>Dedicated Team</h4>
-                                        <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                                        <span>We strive to meet your needs.</span>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +94,7 @@ export default function Index() {
                                     </div>
                                     <div className="ps-3">
                                         <h4>24/7 Available</h4>
-                                        <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                                        <span>We are always at your service.</span>
                                     </div>
                                 </div>
                             </div>
