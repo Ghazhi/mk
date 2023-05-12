@@ -2218,10 +2218,8 @@ function Footer() {
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "#",
-      className: "btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("i", {
-        className: "bi bi-arrow-up"
-      })
+      className: "btn btn-lg btn-primary  rounded-circle back-to-top pb-1",
+      children: "\u2191"
     })]
   });
 }
@@ -2244,6 +2242,9 @@ __webpack_require__.r(__webpack_exports__);
 
 function Nav() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    style: {
+      overflow: "hidden"
+    },
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
       className: "container-fluid bg-dark text-light px-0 py-2",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -2382,7 +2383,7 @@ function About() {
         className: "container text-center py-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
           className: "display-3 text-white mb-4 animated slideInDown",
-          children: "About Us"
+          children: "About"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
           "aria-label": "breadcrumb animated slideInDown",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ol", {
@@ -2408,18 +2409,18 @@ function About() {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "row g-5 align-items-end",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "col-lg-3 col-md-5 wow fadeInUp",
+            className: "col-lg-5 col-md-5 wow fadeInUp",
             "data-wow-delay": "0.1s",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
               className: "img-fluid rounded",
               style: {
-                height: "32rem"
+                height: "31rem"
               },
               "data-wow-delay": "0.1s",
               src: "template/img/about/about.jpeg"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-            className: "col-lg-6 col-md-7 wow fadeInUp",
+            className: "col-lg-7 col-md-7 wow fadeInUp pb-4",
             "data-wow-delay": "0.3s",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
               className: "display-5 text-primary mb-4",
@@ -2434,39 +2435,6 @@ function About() {
               className: "mb-4",
               children: "Our professionals have identified certain needs in the export and food processing sector. These needs are graphic design, image setter, offset printing and production of primary packaging and skillets to support the overall business objectives in order to generate significant growth and superior stakeholders\u2019 value."
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "col-lg-3 col-md-12 wow fadeInUp",
-            "data-wow-delay": "0.5s",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-              className: "row g-5",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-                className: "col-12 col-sm-6 col-lg-12",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-                  className: "border-start ps-4",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
-                    className: "fa fa-award fa-3x text-primary mb-3"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
-                    className: "mb-3",
-                    children: "Award Winning"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-                    children: "Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna"
-                  })]
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-                className: "col-12 col-sm-6 col-lg-12",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-                  className: "border-start ps-4",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
-                    className: "fa fa-users fa-3x text-primary mb-3"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
-                    className: "mb-3",
-                    children: "Dedicated Team"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-                    children: "Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna"
-                  })]
-                })
-              })]
-            })
           })]
         })
       })
@@ -2496,7 +2464,7 @@ function About() {
               className: "team-item rounded",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
                 className: "img-fluid",
-                src: "template/img/team-1.jpg",
+                src: "template/img/team.jpg",
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
                 className: "team-text",
@@ -2537,7 +2505,7 @@ function About() {
               className: "team-item rounded",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
                 className: "img-fluid",
-                src: "template/img/team-2.jpg",
+                src: "template/img/team.jpg",
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
                 className: "team-text",
@@ -2578,7 +2546,7 @@ function About() {
               className: "team-item rounded",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
                 className: "img-fluid",
-                src: "template/img/team-3.jpg",
+                src: "template/img/team.jpg",
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
                 className: "team-text",

@@ -105,9 +105,10 @@ export default function Footer() {
             {/* Back to Top */}
             <a
                 href="#"
-                className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+                className="btn btn-lg btn-primary  rounded-circle back-to-top pb-1"
             >
-                <i className="bi bi-arrow-up" />
+                {/* <i className="bi bi-arrow-up" /> */}
+                &#x2191;
             </a>
         </div>
     )

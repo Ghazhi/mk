@@ -12,7 +12,7 @@ export default function About() {
             >
                 <div className="container text-center py-5">
                     <h1 className="display-3 text-white mb-4 animated slideInDown">
-                        About Us
+                        About 
                     </h1>
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol className="breadcrumb justify-content-center mb-0">
@@ -31,15 +31,15 @@ export default function About() {
             <div className="container-xxl py-5 ">
                 <div className="container ">
                     <div className="row g-5 align-items-end">
-                        <div className="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div className="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
                             <img
                                 className="img-fluid rounded"
-                                style={{height:"32rem",}}
+                                style={{height:"31rem",}}
                                 data-wow-delay="0.1s"
                                 src="template/img/about/about.jpeg"
                             />
                         </div>
-                        <div className="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                        <div className="col-lg-7 col-md-7 wow fadeInUp pb-4" data-wow-delay="0.3s">
                             <p className="display-5 text-primary mb-4">About Us</p>
 
                             <p className="mb-4">
@@ -65,7 +65,7 @@ export default function About() {
                                 stakeholders’ value.
                             </p>
                         </div>
-                        <div className="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                        {/* <div className="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="row g-5">
                                 <div className="col-12 col-sm-6 col-lg-12">
                                     <div className="border-start ps-4">
@@ -88,7 +88,7 @@ export default function About() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@ export default function About() {
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item rounded">
-                                <img className="img-fluid" src="template/img/team-1.jpg" alt="" />
+                                <img className="img-fluid" src="template/img/team.jpg" alt="" />
                                 <div className="team-text">
                                     <h4 className="mb-0">Doris Jordan</h4>
                                     <p className="text-primary">Landscape Designer</p>
@@ -129,7 +129,7 @@ export default function About() {
                         </div>
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div className="team-item rounded">
-                                <img className="img-fluid" src="template/img/team-2.jpg" alt="" />
+                                <img className="img-fluid" src="template/img/team.jpg" alt="" />
                                 <div className="team-text">
                                     <h4 className="mb-0">Johnny Ramirez</h4>
                                     <p className="text-primary">Garden Designer</p>
@@ -149,7 +149,7 @@ export default function About() {
                         </div>
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="team-item rounded">
-                                <img className="img-fluid" src="template/img/team-3.jpg" alt="" />
+                                <img className="img-fluid" src="template/img/team.jpg" alt="" />
                                 <div className="team-text">
                                     <h4 className="mb-0">Diana Wagner</h4>
                                     <p className="text-primary">Senior Gardener</p>
