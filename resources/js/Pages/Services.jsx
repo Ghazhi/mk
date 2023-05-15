@@ -57,7 +57,9 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Large Format Printing</h4>
                                     <p className="mb-4">
-                                        Large graphics and designs for billboards, advertisment on cars and buses etc.
+                                        Mork Impression is a leading provider of large format printing services. We offer a wide range of large format print solutions,
+                                        including banners, posters, signs, and more.
+                                        We use the latest printing technology to ensure that our large format prints are of the highest quality.
                                     </p>
                                 </div>
                             </div>
@@ -77,8 +79,8 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Industrial &amp; Commercial Print</h4>
                                     <p className="mb-4">
-                                        We print on products as part of a manufacturing process
-                                        which adds value to products.
+                                        We print product descriptions for packaging, catalogs, safety instructions for machinery and manuals.
+                                        Our printers produce clean, concise and clear text for easy reading.
                                     </p>
                                 </div>
                             </div>
@@ -98,7 +100,8 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Industrial Lamination</h4>
                                     <p className="mb-4">
-                                        Protect your important files and documents with a protective filming .
+                                        Are you looking to create durable signs, transportation materials, billboards, parts and components for a variety of machines and equipment with a strong, durable,
+                                        and versatile lamination solution, then Mork Impression's Industrial Lamination is the perfect option for you.
                                     </p>
 
                                 </div>
@@ -119,7 +122,8 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Digital Colour Press</h4>
                                     <p className="mb-4">
-                                        We offer high-quality color printing for your professional-quality prints.
+                                        We offer printing solution that is fast, accurate, versatile, and cost-effective to produce high-quality color prints.
+
                                     </p>
 
                                 </div>
@@ -140,7 +144,9 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Graphic Design</h4>
                                     <p className="mb-4">
-                                        Creative, innovative and communicative designs for your events and prints.
+                                        Graphic design is a creative field that requires a strong understanding of
+                                        visual principles, typography, and color theory. At Mork Impression, our professional team of dsigners produces
+                                        creative, innovative and communicative designs for your events and prints.
                                     </p>
                                 </div>
                             </div>
@@ -159,8 +165,8 @@ export default function Services() {
                                         />
                                     </div>
                                     <h4 className="mb-3">Colour Separation</h4>
-                                    <p className="mb-4">
-                                        Separating a picture by colors in order to make negatives and plates for color printing.
+                                    <p className="mb-4">Do you want to split your images into its component colours so that it can be reproduced in print?
+                                        Mork impression prints full-colour and high quality images using colour seperation.
                                     </p>
 
                                 </div>
@@ -181,8 +187,9 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Offset Press</h4>
                                     <p className="mb-4">
-                                        We offer mass-production print on metal plates,
-                                        transferred to rubber blankets or rollers and then to the print media.
+
+                                        We use wide range of materials in a variety of colors and in high volumes to
+                                        print books, magazines, newspapers, packaging, and posters of good and high quality standard.
                                     </p>
 
                                 </div>
@@ -203,7 +210,9 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Security Printing</h4>
                                     <p className="mb-4">
-                                        Cheques, passports, security tapes, stock certificates, postage stamps and identity cards.
+                                        Are you looking to own watermarks, microprinting, security threads, optically variable inks
+                                        Cheques, passports, security tapes, stock certificates, postage stamps and identity cards. We, at Mork Impression
+                                        are experts in printing documents and items with features that make them difficult to counterfeit.
                                     </p>
 
                                 </div>

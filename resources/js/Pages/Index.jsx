@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 export default function Index() {
     return (
@@ -23,7 +24,7 @@ export default function Index() {
                             <div className="carousel-item" style={{ maxHeight: "45rem" }} >
                                 <img src="template/img/bg2.jpg" alt="Image" />
                             </div>
-                            
+
                         </div>
                         <button
                             className="carousel-control-prev"
@@ -47,6 +48,9 @@ export default function Index() {
                 </div>
                 {/* Carousel End */}
             </div>
+            {/*  */}
+           
+
             {/* Top Feature Start */}
             <div className="container-fluid top-feature py-5 pt-lg-0">
                 <div className="container py-5 pt-lg-0">
@@ -102,6 +106,7 @@ export default function Index() {
                     </div>
                 </div>
             </div>
+            
             {/* Top Feature End */}
             {/* Features Start */}
             <div className="container-xxl py-5">
