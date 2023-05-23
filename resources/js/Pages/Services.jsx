@@ -145,7 +145,7 @@ export default function Services() {
                                     <h4 className="mb-3">Graphic Design</h4>
                                     <p className="mb-4">
                                         Graphic design is a creative field that requires a strong understanding of
-                                        visual principles, typography, and color theory. At Mork Impression, our professional team of dsigners produces
+                                        visual principles, typography, and color theory. At Mork Impression, our professional team of designers produces
                                         creative, innovative and communicative designs for your events and prints.
                                     </p>
                                 </div>
@@ -166,7 +166,7 @@ export default function Services() {
                                     </div>
                                     <h4 className="mb-3">Colour Separation</h4>
                                     <p className="mb-4">Do you want to split your images into its component colours so that it can be reproduced in print?
-                                        Mork impression prints full-colour and high quality images using colour seperation.
+                                        Mork impression prints full-colour and high quality images using colour separation.
                                     </p>
 
                                 </div>

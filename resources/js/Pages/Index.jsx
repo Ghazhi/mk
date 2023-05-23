@@ -15,14 +15,14 @@ export default function Index() {
                         data-bs-ride="carousel"
                     >
                         <div className="carousel-inner">
-                            <div className="carousel-item active" style={{ maxHeight: "45rem" }}>
-                                <img className="w-100" src="template/img/ip.jpg" alt="Image" />
+                            <div className="carousel-item active" style={{ Height: "45rem" }}>
+                                <img className="w-100" src="template/img/banner.jpg" alt="Image" />
                                 <div className="carousel-caption">
 
                                 </div>
                             </div>
-                            <div className="carousel-item" style={{ maxHeight: "45rem" }} >
-                                <img src="template/img/bg2.jpg" alt="Image" />
+                            <div className="carousel-item" style={{ Height: "45rem" }} >
+                                <img className="w-100" src="template/img/bana.jpg" alt="Image" />
                             </div>
 
                         </div>
@@ -186,11 +186,12 @@ export default function Index() {
                 className="container-fluid facts my-5 py-5"
                 data-parallax="scroll"
                 data-image-src="template/img/bnna.jpeg"
+                
             >
-                <div className="container py-5">
+                <div className="container  py-5">
                     <div className="row g-5">
                         <div
-                            className="col-sm-6 col-lg-3 text-center wow fadeIn"
+                            className="col-sm-6 col-lg-3 text-center  wow fadeIn"
                             data-wow-delay="0.1s"
                         >
                             <h1 className="display-4 text-white" data-toggle="counter-up">
@@ -320,8 +321,8 @@ export default function Index() {
             {/* Quote Start */}
             <div
                 className="container-fluid quote my-5 py-5"
-                data-parallax="scroll"
-                data-image-src="template/img/contact.jpeg"
+                data-parallax=""
+                data-image-src="template/img/carousel-1.jpg"
             >
                 <div className="container py-5">
                     <div className="row justify-content-center">

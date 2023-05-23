@@ -2218,7 +2218,7 @@ function Footer() {
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "#",
-      className: "btn btn-lg btn-primary  rounded-circle back-to-top pb-1",
+      className: "btn btn-lg btn-primary  rounded-circle back-to-top pb-3",
       children: "\u2191"
     })]
   });
@@ -2624,11 +2624,11 @@ function Index() {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "carousel-item active",
               style: {
-                maxHeight: "45rem"
+                Height: "45rem"
               },
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                 className: "w-100",
-                src: "template/img/ip.jpg",
+                src: "template/img/banner.jpg",
                 alt: "Image"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "carousel-caption"
@@ -2636,10 +2636,11 @@ function Index() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
               className: "carousel-item",
               style: {
-                maxHeight: "45rem"
+                Height: "45rem"
               },
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-                src: "template/img/bg2.jpg",
+                className: "w-100",
+                src: "template/img/bana.jpg",
                 alt: "Image"
               })
             })]
@@ -2867,11 +2868,11 @@ function Index() {
       "data-parallax": "scroll",
       "data-image-src": "template/img/bnna.jpeg",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "container py-5",
+        className: "container  py-5",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "row g-5",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "col-sm-6 col-lg-3 text-center wow fadeIn",
+            className: "col-sm-6 col-lg-3 text-center  wow fadeIn",
             "data-wow-delay": "0.1s",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
               className: "display-4 text-white",
@@ -3041,8 +3042,8 @@ function Index() {
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "container-fluid quote my-5 py-5",
-      "data-parallax": "scroll",
-      "data-image-src": "template/img/contact.jpeg",
+      "data-parallax": "",
+      "data-image-src": "template/img/carousel-1.jpg",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "container py-5",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -3772,7 +3773,7 @@ function Services() {
                   children: "Graphic Design"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
                   className: "mb-4",
-                  children: "Graphic design is a creative field that requires a strong understanding of visual principles, typography, and color theory. At Mork Impression, our professional team of dsigners produces creative, innovative and communicative designs for your events and prints."
+                  children: "Graphic design is a creative field that requires a strong understanding of visual principles, typography, and color theory. At Mork Impression, our professional team of designers produces creative, innovative and communicative designs for your events and prints."
                 })]
               })]
             })
@@ -3802,7 +3803,7 @@ function Services() {
                   children: "Colour Separation"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
                   className: "mb-4",
-                  children: "Do you want to split your images into its component colours so that it can be reproduced in print? Mork impression prints full-colour and high quality images using colour seperation."
+                  children: "Do you want to split your images into its component colours so that it can be reproduced in print? Mork impression prints full-colour and high quality images using colour separation."
                 })]
               })]
             })

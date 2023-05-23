@@ -105,7 +105,7 @@ export default function Footer() {
             {/* Back to Top */}
             <a
                 href="#"
-                className="btn btn-lg btn-primary  rounded-circle back-to-top pb-1"
+                className="btn btn-lg btn-primary  rounded-circle back-to-top pb-3"
             >
                 {/* <i className="bi bi-arrow-up" /> */}
                 &#x2191;
