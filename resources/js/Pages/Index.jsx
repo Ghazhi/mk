@@ -49,7 +49,7 @@ export default function Index() {
                 {/* Carousel End */}
             </div>
             {/*  */}
-           
+
 
             {/* Top Feature Start */}
             <div className="container-fluid top-feature py-5 pt-lg-0">
@@ -106,7 +106,7 @@ export default function Index() {
                     </div>
                 </div>
             </div>
-            
+
             {/* Top Feature End */}
             {/* Features Start */}
             <div className="container-xxl py-5">
@@ -182,11 +182,19 @@ export default function Index() {
             </div>
             {/* Features End */}
             {/* Facts Start */}
+            {/* <div
+                className="container-fluid facts wow fadeInUp my-5 py-5"
+                data-parallax="scroll"
+                data-image-src="template/img/copy.png"
+
+            > */}
             <div
                 className="container-fluid facts my-5 py-5"
-                data-parallax="scroll"
-                data-image-src="template/img/bnna.jpeg"
-                
+                style={{
+                    backgroundImage: "url('template/img/new.png')",
+                    backgroundAttachment: "fixed",
+                    backgroundSize: "cover",
+                }}
             >
                 <div className="container  py-5">
                     <div className="row g-5">
@@ -320,9 +328,13 @@ export default function Index() {
             {/* Service End */}
             {/* Quote Start */}
             <div
-                className="container-fluid quote my-5 py-5"
-                data-parallax=""
-                data-image-src="template/img/carousel-1.jpg"
+                className="container-fluid facts my-5 py-5"
+                // data-parallax="scroll"
+                style={{ 
+                    backgroundImage: "url('template/img/quote.jpg')",
+                    backgroundAttachment: "fixed",
+                    backgroundSize: "cover",
+                }}
             >
                 <div className="container py-5">
                     <div className="row justify-content-center">

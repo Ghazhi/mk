@@ -2865,8 +2865,11 @@ function Index() {
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "container-fluid facts my-5 py-5",
-      "data-parallax": "scroll",
-      "data-image-src": "template/img/bnna.jpeg",
+      style: {
+        backgroundImage: "url('template/img/new.png')",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover"
+      },
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "container  py-5",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -3041,9 +3044,13 @@ function Index() {
         })
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      className: "container-fluid quote my-5 py-5",
-      "data-parallax": "",
-      "data-image-src": "template/img/carousel-1.jpg",
+      className: "container-fluid facts my-5 py-5" // data-parallax="scroll"
+      ,
+      style: {
+        backgroundImage: "url('template/img/quote.jpg')",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover"
+      },
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "container py-5",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
