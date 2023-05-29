@@ -45,7 +45,11 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Large Format Printing</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Lfp.png" alt="" />
+
                                 </div>
                                 <div className="service-text rounded p-5">
                                     <div className="btn-square rounded-circle mx-auto mb-3">
@@ -55,7 +59,7 @@ export default function Services() {
                                             alt="Icon"
                                         />
                                     </div>
-                                    <h4 className="mb-3">Large Format Printing</h4>
+                                    <h4 className="mb-3" >Large Format Printing</h4>
                                     <p className="mb-4">
                                         Mork Impression is a leading provider of large format printing services. We offer a wide range of large format print solutions,
                                         including banners, posters, signs, and more.
@@ -67,6 +71,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Industrial &amp; Commercial Print</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Icp.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -88,6 +95,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Industrial Lamination</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Lmtn.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -110,6 +120,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Digital Colour Press</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Cp.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -132,6 +145,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Graphic Design</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Gd.jpg" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -154,6 +170,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Colour Separation</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/color.jpg" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -175,6 +194,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Offset Press</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Op.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -198,6 +220,9 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Security Printing</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/sp.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">

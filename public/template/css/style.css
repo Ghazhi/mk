@@ -200,7 +200,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banner.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/il.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -238,44 +238,85 @@ h6,
     text-align: center;
 }
 
-.service-item .service-img {
+.service-item 
+.service-img 
+{
+    background-color: #FFFFFF;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     overflow: hidden;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
-.service-item .service-img img {
+.service-item
+ .service-img
+  img {
+    background-color: #FFFFFF;
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     object-fit: cover;
-    transform: scale(1.2);
-    transition: .3s;
-    z-index: -1;
+    transform: scale(1);
+    /* transition: .2s; */
+    /* z-index: -1; */
 }
 
 .service-item:hover .service-img img {
-    transform: scale(1);
+    transform: scale(1.2);
+    /* transition: .2s; */
+}
+.service-img:hover{
+    z-index: -1;
 }
 
 .service-item .service-text {
+
     background: #FFFFFF;
     box-shadow: 0 0 45px rgba(18, 4, 1, .08);
-    transition: .3s;
+    /* transition: .1s; */
+    z-index: -1;
+}
+.serviceTitle{
+    padding-top: 10px;
+    background-color: orangered;
+
+}
+
+.serviceTitle h4{
+    color:white;
 }
 
 .service-item:hover .service-text {
     background: rgba(18, 4, 1, 0.6);
+    z-index: 1;
+}
+
+
+.img-title{
+    color: orangered;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    background-color: #fcfcfc24;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    /* transform: translate(0px,10px); */
+    /* z-index: 2; */
+}
+
+ .img-title:hover{
+    display: none;
+    color:rgb(15, 23, 244);
 }
 
 .service-item .service-text h4,
 .service-item .service-text p {
-    transition: .3;
+    transition: 0s;
 }
 
 .service-item:hover .service-text h4 {

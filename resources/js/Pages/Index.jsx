@@ -253,10 +253,13 @@ export default function Index() {
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Large Format Printing</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Lfp.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
-                                    <div className="btn-square rounded-circle mx-auto mb-3">
+                                    <div className="btn-square  rounded-circle mx-auto mb-3">
                                         <img
                                             className="img-fluid"
                                             src="template/img/icon/print.png"
@@ -275,6 +278,9 @@ export default function Index() {
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Graphic Design</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Gd.jpg" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -296,6 +302,9 @@ export default function Index() {
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="service-item rounded d-flex h-100">
                                 <div className="service-img rounded">
+                                    <div className="serviceTitle border">
+                                        <h4>Graphic Design</h4>
+                                    </div>
                                     <img className="img-fluid" src="template/img/service/Cp.png" alt="" />
                                 </div>
                                 <div className="service-text rounded p-5">
@@ -330,7 +339,7 @@ export default function Index() {
             <div
                 className="container-fluid facts my-5 py-5"
                 // data-parallax="scroll"
-                style={{ 
+                style={{
                     backgroundImage: "url('template/img/quote.jpg')",
                     backgroundAttachment: "fixed",
                     backgroundSize: "cover",
