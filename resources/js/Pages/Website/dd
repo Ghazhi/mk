@@ -1,0 +1,171 @@
+ {Imgs.map((item, index) => (
+                            <div className="">
+                                <Modal show={show} size="lg" onHide={handleClose}>
+                                    {/* <Modal.Header closeButton>
+                                        <Modal.Title >
+                                            <span className="text-center">  </span>
+                                        </Modal.Title>
+                                    </Modal.Header> */}
+                                    {/* <Modal.Body> */}
+                                    <div className="">
+                                        <div className="text-center">
+                                            <Carousel fade style={{ backgroundColor: "rgba(0,0,0,0.1)" }}>
+
+                                                <Carousel.Item>
+                                                    {console.log(typeof(group))}
+                                                    {/* <img
+                                                        className="img-fluid w-full"
+                                                        src="template/img/banner.jpg"
+                                                        alt="First slide"
+                                                    style={{maxHeight:"25rem",width:"100%"}}
+                                                    /> */}
+
+                                                </Carousel.Item>
+
+                                            </Carousel>
+
+                                        </div>
+                                    </div>
+
+                                </Modal>
+                                <div
+                                    className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                                    data-wow-delay="0.1s"
+                                >
+                                    <div className="portfolio-inner rounded">
+                                        <img className="img-fluid" src="template/img/portfolio/portfolio1.jpeg" alt="" />
+                                        <div className="portfolio-text">
+                                            <h4 className="text-white mb-4">Landscaping</h4>
+                                            <div className="d-flex">
+                                                <span
+                                                    onClick={() => doOpen(item.imgs)}
+                                                    className="btn btn-lg-square rounded-circle mx-2"
+                                                    target="_blank"
+                                                    // href="template/img/portfolio/portfolio1.jpeg"
+                                                    data-lightbox="portfolio"
+                                                >
+                                                    <i className="fa fa-eye" />
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+
+                        <!--  -->
+                        <!--  -->
+                        <!--  -->
+                        <!--  -->
+                        <!--  -->
+                        <!--  -->
+                         <div
+                            className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div className="portfolio-inner rounded">
+                                <img className="img-fluid" src="template/img/portfolio/portfolio2.jpeg" alt="" />
+                                <div className="portfolio-text">
+                                    {/* <h4 className="text-white mb-4">Pruning plants</h4> */}
+                                    <div className="d-flex">
+                                        <a
+                                            className="btn btn-lg-square rounded-circle mx-2"
+                                            target="_blank"
+                                            href="template/img/portfolio/portfolio2.jpeg"
+                                            data-lightbox="portfolio"
+                                        >
+                                            <i className="fa fa-eye" />
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div className="portfolio-inner rounded">
+                                <img className="img-fluid" src="template/img/portfolio/portfolio3.jpeg" alt="" />
+                                <div className="portfolio-text">
+                                    {/* <h4 className="text-white mb-4">Irrigation &amp; Drainage</h4> */}
+                                    <div className="d-flex">
+                                        <a
+                                            className="btn btn-lg-square rounded-circle mx-2"
+                                            target="_blank"
+                                            href="template/img/portfolio/portfolio3.jpeg"
+                                            data-lightbox="portfolio"
+                                        >
+                                            <i className="fa fa-eye" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div className="portfolio-inner rounded">
+                                <img className="img-fluid" src="template/img/portfolio/portfolio4.jpeg" alt="" />
+                                <div className="portfolio-text">
+                                    {/* <h4 className="text-white mb-4">Garden Maintenance</h4> */}
+                                    <div className="d-flex">
+                                        <a
+                                            className="btn btn-lg-square rounded-circle mx-2"
+                                            target="_blank"
+                                            href="template/img/portfolio/portfolio4.jpeg"
+                                            data-lightbox="portfolio"
+                                        >
+                                            <i className="fa fa-eye" />
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div className="portfolio-inner rounded">
+                                <img className="img-fluid" src="template/img/portfolio/portfolio5.jpeg" alt="" />
+                                <div className="portfolio-text">
+                                    {/* <h4 className="text-white mb-4">Green Technology</h4> */}
+                                    <div className="d-flex">
+                                        <a
+                                            className="btn btn-lg-square rounded-circle mx-2"
+                                            target="_blank"
+                                            href="template/img/portfolio/portfolio5.jpeg"
+                                            data-lightbox="portfolio"
+                                        >
+                                            <i className="fa fa-eye" />
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div className="portfolio-inner rounded">
+                                <img className="img-fluid" src="template/img/portfolio/portfolio6.jpeg" alt="" />
+                                <div className="portfolio-text">
+                                    {/* <h4 className="text-white mb-4">Urban Gardening</h4> */}
+                                    <div className="d-flex">
+                                        <a
+                                            className="btn btn-lg-square rounded-circle mx-2"
+                                            target="_blank"
+                                            href="template/img/portfolio/portfolio6.jpeg"
+                                            data-lightbox="portfolio"
+                                        >
+                                            <i className="fa fa-eye" />
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
