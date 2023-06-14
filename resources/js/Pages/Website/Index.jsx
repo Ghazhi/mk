@@ -26,9 +26,9 @@ export default function Index() {
                             <div className="carousel-item"  >
                                 <img className="w-100" src="template/img/banners/4.jpg" alt="Image" />
                             </div>
-                            <div className="carousel-item"  >
+                            {/* <div className="carousel-item"  >
                                 <img className="w-100" src="template/img/banners/about.jpg" alt="Image" />
-                            </div>
+                            </div> */}
                             <div className="carousel-item"  >
                                 <img className="img-fluid " style={{ width: "100%", height: "40rem" }} src="template/img/banners/portfolio.jpg" alt="Image" />
                             </div>
