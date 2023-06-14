@@ -90,7 +90,7 @@ export default function Services() {
                                             <div className="serviceTitle border">
                                                 <h4>{item.name}</h4>
                                             </div>
-                                            <img className="img-fluid" style={{ width: "37rem", height: "30rem" }} src={item.img1} alt="" />
+                                            <img className=""  src={item.img1} alt="" />
                                         </div>
                                         <div className="service-text rounded p-5">
                                             <div className="btn-square  rounded-circle mx-auto mb-3"
@@ -145,8 +145,8 @@ export default function Services() {
                                                 <Carousel fade>
                                                     <Carousel.Item>
                                                         <img
-                                                            // className="img-fluid w-full"
-                                                            style={{ height: "30rem", width: "50rem" }}
+                                                            className="img-fluid w-full"
+                                                            // style={{ height: "30rem", width: "50rem" }}
                                                             src={image1}
                                                             alt="First slide"
                                                         // style={{maxHeight:"25rem",width:"100%"}}

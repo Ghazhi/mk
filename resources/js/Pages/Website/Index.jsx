@@ -1,6 +1,6 @@
 import Footer from "../../Components/Footer";
 import Nav from "../../Components/Nav";
-import { GiArcheryTarget,  GiReceiveMoney, GiSandsOfTime, GiStrong, GiWorld } from "react-icons/gi";
+import { GiArcheryTarget, GiReceiveMoney, GiSandsOfTime, GiStrong, GiWorld } from "react-icons/gi";
 import { MdGppGood, MdOutlineDraw } from "react-icons/md";
 import { BiTargetLock } from "react-icons/bi";
 import { BsPrinter } from "react-icons/bs";
@@ -21,16 +21,13 @@ export default function Index() {
                     >
                         <div className="carousel-inner">
                             <div className="carousel-item active" >
-                                <img className="img-fluid " style={{ width: "100%", height: "40rem" }} src="template/img/banners/3.jpg" alt="Image" />
-                                <div className="carousel-caption">
-
-                                </div>
+                                <img className="w-100" src="template/img/banners/3.jpg" alt="Image" />
                             </div>
                             <div className="carousel-item"  >
-                                <img className="img-fluid " style={{ width: "100%", height: "40rem" }} src="template/img/banners/4.jpg" alt="Image" />
+                                <img className="w-100" src="template/img/banners/4.jpg" alt="Image" />
                             </div>
                             <div className="carousel-item"  >
-                                <img className="img-fluid " style={{ width: "100%", height: "40rem" }} src="template/img/banners/about.jpg" alt="Image" />
+                                <img className="w-100" src="template/img/banners/about.jpg" alt="Image" />
                             </div>
                             <div className="carousel-item"  >
                                 <img className="img-fluid " style={{ width: "100%", height: "40rem" }} src="template/img/banners/portfolio.jpg" alt="Image" />
@@ -319,7 +316,7 @@ export default function Index() {
                                             src="template/img/icon/print.png"
                                             alt="Icon"
                                         /> */}
-                                        <BsPrinter style={{width:"3rem",height:"3rem"}} />
+                                        <BsPrinter style={{ width: "3rem", height: "3rem" }} />
                                     </div>
                                     <h4 className="mb-3">Industrial & Commercial Print</h4>
                                     <p className="mb-4">
@@ -345,7 +342,7 @@ export default function Index() {
                                             src="template/img/icon/graphic.png"
                                             alt="Icon"
                                         /> */}
-                                        <MdOutlineDraw style={{width:"3rem", height:"3rem"}} />
+                                        <MdOutlineDraw style={{ width: "3rem", height: "3rem" }} />
                                     </div>
                                     <h4 className="mb-3">Graphic Design</h4>
                                     <p className="mb-4">
@@ -370,7 +367,7 @@ export default function Index() {
                                             src="template/img/icon/color2.png"
                                             alt="Icon"
                                         /> */}
-                                        <AiOutlineBgColors style={{width:"3rem",height:"3rem"}} />
+                                        <AiOutlineBgColors style={{ width: "3rem", height: "3rem" }} />
                                     </div>
                                     <h4 className="mb-3">Offset Press</h4>
                                     <p className="mb-4">
@@ -466,7 +463,7 @@ export default function Index() {
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-floating">
-                                            
+
                                             <select name=""
                                                 type="text"
                                                 className="form-control bg-light border-0"

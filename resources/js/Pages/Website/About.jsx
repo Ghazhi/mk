@@ -43,7 +43,7 @@ export default function About() {
                                 className="img-fluid rounded"
                                 style={{ height: "35rem", }}
                                 data-wow-delay="0.1s"
-                                src="template/img/Portfolio/Mug&tomblerPress/Mug&tomblerPress6.jpg"
+                                src="template/img/portfolio/Mug&tomblerPress/Mug&tomblerPress6.jpg"
                             />
                         </div>
                         <div className="col-lg-7 col-md-7 wow fadeInUp " data-wow-delay="0.3s">
@@ -131,7 +131,7 @@ export default function About() {
             </div>
             {/* End Partners */}
             {/* Team Start */}
-            <div className="container-xxl pb-5" style={{paddingTop:"6rem"}} >
+            <div className="container-xxl pb-5" style={{ paddingTop: "6rem" }} >
                 <div className="container">
                     <div
                         className="text-center mx-auto wow fadeInUp"
@@ -143,7 +143,61 @@ export default function About() {
                             Creative &amp; Experienced Team
                         </h1>
                     </div>
-                    <div className="row g-4">
+                    <div className="d-flex">
+                        <div className="col-4">
+                            <div className="team-text">
+                                <h4 className="mb-0">Mr. Emmanuel Mork	</h4>
+                                <p className="text-primary">  CEO </p>
+                                <div className="team-social d-flex">
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <div className="team-text">
+                                <h4 className="mb-0">Mrs. Sheila Mork	</h4>
+                                <p className="text-primary">  Secretary </p>
+                                <div className="team-social d-flex">
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="">
+                            <div className="team-text">
+                                <h4 className="mb-0">Rita Adzo Yiborku	</h4>
+                                <p className="text-primary">  Client Services </p>
+                                <div className="team-social d-flex">
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a className="btn btn-square rounded-circle me-2" href="">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div className="row g-4">
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item rounded">
                                 <img className="img-fluid" src="template/img/avatar.jpg" alt="" />
@@ -204,7 +258,7 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* Team End */}
