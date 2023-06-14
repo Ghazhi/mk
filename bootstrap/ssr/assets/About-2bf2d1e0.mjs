@@ -32,7 +32,7 @@ function About() {
           className: "img-fluid rounded",
           style: { height: "35rem" },
           "data-wow-delay": "0.1s",
-          src: "template/img/Portfolio/Mug&tomblerPress/Mug&tomblerPress6.jpg"
+          src: "template/img/portfolio/Mug&tomblerPress/Mug&tomblerPress6.jpg"
         }
       ) }),
       /* @__PURE__ */ jsxs("div", { className: "col-lg-7 col-md-7 wow fadeInUp ", "data-wow-delay": "0.3s", children: [
@@ -72,41 +72,32 @@ function About() {
           ]
         }
       ),
-      /* @__PURE__ */ jsxs("div", { className: "row g-4", children: [
-        /* @__PURE__ */ jsx("div", { className: "col-lg-4 col-md-6 wow fadeInUp", "data-wow-delay": "0.1s", children: /* @__PURE__ */ jsxs("div", { className: "team-item rounded", children: [
-          /* @__PURE__ */ jsx("img", { className: "img-fluid", src: "template/img/avatar.jpg", alt: "" }),
-          /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
-            /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Mr. Emmanuel Mork" }),
-            /* @__PURE__ */ jsx("p", { className: "text-primary", children: "CEO " }),
-            /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-twitter" }) }),
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
-            ] })
+      /* @__PURE__ */ jsxs("div", { className: "d-flex", children: [
+        /* @__PURE__ */ jsx("div", { className: "col-4", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
+          /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Mr. Emmanuel Mork	" }),
+          /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  CEO " }),
+          /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-twitter" }) }),
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
           ] })
         ] }) }),
-        /* @__PURE__ */ jsx("div", { className: "col-lg-4 col-md-6 wow fadeInUp", "data-wow-delay": "0.3s", children: /* @__PURE__ */ jsxs("div", { className: "team-item rounded", children: [
-          /* @__PURE__ */ jsx("img", { className: "img-fluid", src: "template/img/avatar.jpg", alt: "" }),
-          /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
-            /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Mrs. Sheila Mork	" }),
-            /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  Secretary " }),
-            /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-twitter" }) }),
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
-            ] })
+        /* @__PURE__ */ jsx("div", { className: "col-4", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
+          /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Mrs. Sheila Mork	" }),
+          /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  Secretary " }),
+          /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-twitter" }) }),
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
           ] })
         ] }) }),
-        /* @__PURE__ */ jsx("div", { className: "col-lg-4 col-md-6 wow fadeInUp", "data-wow-delay": "0.5s", children: /* @__PURE__ */ jsxs("div", { className: "team-item rounded", children: [
-          /* @__PURE__ */ jsx("img", { className: "img-fluid", src: "template/img/avatar.jpg", alt: "" }),
-          /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
-            /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Rita Adzo Yiborku	" }),
-            /* @__PURE__ */ jsx("p", { className: "text-primary", children: " Client Services  " }),
-            /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-twitter" }) }),
-              /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
-            ] })
+        /* @__PURE__ */ jsx("div", { className: "", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
+          /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Rita Adzo Yiborku	" }),
+          /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  Client Services " }),
+          /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-twitter" }) }),
+            /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
           ] })
         ] }) })
       ] })
