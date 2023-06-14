@@ -552,7 +552,7 @@ default_1(
     page,
     render: ReactDOMServer.renderToString,
     title: (title) => `${title} - ${appName}`,
-    resolve: (name) => resolvePageComponent(`./Pages/${name}.jsx`, /* @__PURE__ */ Object.assign({ "./Pages/Backend/Auth/Index.jsx": () => import("./assets/Index-2a711e37.mjs"), "./Pages/Backend/Dashboard/Album.jsx": () => import("./assets/Album-c06b1b3b.mjs"), "./Pages/Backend/Dashboard/Cases.jsx": () => import("./assets/Cases-0fcb7f62.mjs"), "./Pages/Backend/Dashboard/Index.jsx": () => import("./assets/Index-cf52674a.mjs"), "./Pages/Backend/Dashboard/Publication.jsx": () => import("./assets/Publication-1d4278df.mjs"), "./Pages/Backend/Dashboard/Users.jsx": () => import("./assets/Users-0cc9705b.mjs"), "./Pages/Website/About.jsx": () => import("./assets/About-eafc7b0b.mjs"), "./Pages/Website/AboutMessage.jsx": () => import("./assets/AboutMessage-33067014.mjs"), "./Pages/Website/AboutStory.jsx": () => import("./assets/AboutStory-7e3cf258.mjs"), "./Pages/Website/Contact.jsx": () => import("./assets/Contact-008be4ff.mjs"), "./Pages/Website/CustomsFiles.jsx": () => import("./assets/CustomsFiles-f57e39e4.mjs"), "./Pages/Website/DisputeFIles.jsx": () => import("./assets/DisputeFIles-fc874ec5.mjs"), "./Pages/Website/Faq.jsx": () => import("./assets/Faq-f6a4bf8c.mjs"), "./Pages/Website/Gallery.jsx": () => import("./assets/Gallery-71a2455d.mjs"), "./Pages/Website/Index.jsx": () => import("./assets/Index-ba618498.mjs"), "./Pages/Website/MeasuresFiles.jsx": () => import("./assets/MeasuresFiles-f68b3223.mjs"), "./Pages/Website/Publication.jsx": () => import("./assets/Publication-2c5d7dcf.mjs"), "./Pages/Website/Resources.jsx": () => import("./assets/Resources-6c8f3d1d.mjs"), "./Pages/Website/Service.jsx": () => import("./assets/Service-792bdfa0.mjs"), "./Pages/Website/ServiceDispute.jsx": () => import("./assets/ServiceDispute-38b84db9.mjs"), "./Pages/Website/ServiceDumping.jsx": () => import("./assets/ServiceDumping-d7c386e0.mjs"), "./Pages/Website/ServiceResearch.jsx": () => import("./assets/ServiceResearch-99b07213.mjs"), "./Pages/Website/ServiceSafeguard.jsx": () => import("./assets/ServiceSafeguard-08c8f70c.mjs"), "./Pages/Website/ServiceSaufgard.jsx": () => import("./assets/ServiceSaufgard-2e5fa31a.mjs"), "./Pages/Website/ServiceSubsidy.jsx": () => import("./assets/ServiceSubsidy-b3cad0e2.mjs"), "./Pages/Website/ServiceTariff.jsx": () => import("./assets/ServiceTariff-7881ee5e.mjs"), "./Pages/Website/SubsidyFiles.jsx": () => import("./assets/SubsidyFiles-2f3372f0.mjs") })),
+    resolve: (name) => resolvePageComponent(`./Pages/${name}.jsx`, /* @__PURE__ */ Object.assign({ "./Pages/Website/About.jsx": () => import("./assets/About-27d41b7b.mjs"), "./Pages/Website/Imgs.jsx": () => import("./assets/Imgs-d1c28ad4.mjs"), "./Pages/Website/Index.jsx": () => import("./assets/Index-d4d8e73d.mjs"), "./Pages/Website/Portfolio.jsx": () => import("./assets/Portfolio-129adb6e.mjs"), "./Pages/Website/Quote.jsx": () => import("./assets/Quote-8683c08b.mjs"), "./Pages/Website/Services.jsx": () => import("./assets/Services-d9e97acb.mjs") })),
     setup: ({ App, props }) => {
       global.route = (name, params, absolute) => P(name, params, absolute, {
         ...page.props.ziggy,
@@ -564,6 +564,6 @@ default_1(
 );
 export {
   Fragment as F,
-  jsxs as a,
-  jsx as j
+  jsx as a,
+  jsxs as j
 };
