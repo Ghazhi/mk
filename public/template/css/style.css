@@ -200,25 +200,24 @@ h6,
 }
 
 .page-header {
-    background-size:contain;
-
+    /* background-size:contain; */
 }
 
 .page-header-about {
-    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/about.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/gg.jpg) center center no-repeat;
     background-size: 93rem auto;
 }
 .page-header-service {
-    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/service.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/car.jpg) center center no-repeat;
     background-size: 93rem auto;
 }
 .page-header-portfolio {
-    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/portfolio.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/gifts.jpg) center center no-repeat;
     background-size: 93rem auto;
 }
 
 .page-header-quote {
-    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/quote.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 8, 35, 0.6), rgba(66, 45, 15, 0.6)), url(../img/banners/dtf.jpg) center center no-repeat;
     background-size: 93rem auto;
     /* color: rgb(4, 4, 149); */
 }

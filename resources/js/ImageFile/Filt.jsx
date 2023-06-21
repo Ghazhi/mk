@@ -2,7 +2,7 @@ const Filt = [
     {
         id: '1',
         name: 'Large Format Printing',
-        description: 'Mork Impression is a leading provider of large format printing services. We offer a wide range of large format print solutions, including banners, posters, signs, and more. We use the latest printing technology to ensure that our large format prints are of the highest quality. ',
+        description: 'Mork Impression is a leading provider of large format printing services.  We use the latest printing technology to ensure that our large format prints are of the highest quality. ',
         img1: 'template/img/service/Large/3.jpg',
         img2: 'template/img/service/Lfp.png ',
         img3: 'template/img/service/Large/2.jpg',
@@ -10,7 +10,7 @@ const Filt = [
     },
     {
         id: '2',
-        name: 'Industrial & CommerPrintcial ',
+        name: 'Industrial & Commercial Print',
         description: ' We print product descriptions for packaging, catalogs, safety instructions for machinery and manuals.  Our printers produce clean, concise and clear text for easy reading.',
         img1: 'template/img/service/ICprint/1.jpg',
         img2: 'template/img/service/Icp.png',
@@ -29,7 +29,7 @@ const Filt = [
     {
         id: '4',
         name: 'Digital Colour Press',
-        description: ' We offer printing solution that is fast, accurate, versatile, and cost-effective to produce high-quality color prints.        ',
+        description: ' We offer printing solution that is fast, accurate, versatile, and cost-effective to produce high-quality color prints.   ',
         img1: 'template/img/service/Color/1.jpg',
         img2: 'template/img/service/Cp.png',
         img3: 'template/img/service/Color/2.jpg',
@@ -38,7 +38,7 @@ const Filt = [
     {
         id: '5',
         name: 'Graphic Design',
-        description: 'Graphic design is a creative field that requires a strong understanding of visual principles, typography, and color theory. At Mork Impression, our professional team of designers produces creative, innovative and communicative designs for your events and prints.',
+        description: ' At Mork Impression, our professional team of designers produces creative, innovative and communicative designs for your events and prints.',
         img1: 'template/img/service/Design/1.jpg',
         img2: 'template/img/service/direct.jpg',
         img3: 'template/img/service/Design/2.png',
@@ -56,7 +56,7 @@ const Filt = [
     {
         id: '7',
         name: 'Offset Press',
-        description: 'We use wide range of materials in a variety of colors and in high volumes to print books, magazines, newspapers, packaging, and posters of good and high quality standard.',
+        description: 'We use wide range of materials in a variety of colors and in high volumes to print books, newspapers and posters of good and high quality standard.',
         img1: 'template/img/service/Op.png',
         img2: 'template/img/service/Press/1.jpg',
         img3: 'template/img/service/Press/2.jpg',
@@ -65,7 +65,7 @@ const Filt = [
     {
         id: '8',
         name: 'Security Printing',
-        description: 'Are you looking to own watermarks, microprinting, security threads, optically variable inks Cheques, passports, security tapes, stock certificates, postage stamps and identity cards. We, at Mork Impression are experts in printing documents and items with features that make them difficult to counterfeit.',
+        description: 'Are you looking to own watermarks, security threads, passports, security tapes, postage stamps and identity cards. We, at Mork Impression are experts in printing documents and items with features that make them difficult to counterfeit.',
         img1: 'template/img/service/Security/2.jpg',
         img2: 'template/img/service/Security/1.jpg',
         img3: 'template/img/service/sp.png',

@@ -14,7 +14,7 @@ export default function About() {
             <Nav />
             {/* Page Header Start */}
             <div
-                className="container-fluid page-header page-header-about py-5 mb-5 wow fadeIn"
+              className="container-fluid page-header page-header-about py-5 mb-5 wow fadeIn"
                 data-wow-delay="0.1s"
             >
                 <div className="container text-center mt-5 py-5">
@@ -143,10 +143,10 @@ export default function About() {
                             Creative &amp; Experienced Team
                         </h1>
                     </div>
-                    <div className="d-flex">
-                        <div className="col-4">
+                    <div className="row">
+                        <div className="col-4 px-3">
                             <div className="team-text">
-                                <h4 className="mb-0">Mr. Emmanuel Mork	</h4>
+                                <h6 className="mb-0">Mr. Emmanuel Mork	</h6>
                                 <p className="text-primary">  CEO </p>
                                 <div className="team-social d-flex">
                                     <a className="btn btn-square rounded-circle me-2" href="">
@@ -161,9 +161,9 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 px-3">
                             <div className="team-text">
-                                <h4 className="mb-0">Mrs. Sheila Mork	</h4>
+                                <h6 className="mb-0">Mrs. Sheila Mork	</h6>
                                 <p className="text-primary">  Secretary </p>
                                 <div className="team-social d-flex">
                                     <a className="btn btn-square rounded-circle me-2" href="">
@@ -179,9 +179,9 @@ export default function About() {
                             </div>
                         </div>
 
-                        <div className="">
+                        <div className="col-4  px-3">
                             <div className="team-text">
-                                <h4 className="mb-0">Rita Adzo Yiborku	</h4>
+                                <h6 className="mb-0">Rita Adzo Yiborku	</h6>
                                 <p className="text-primary">  Client Services </p>
                                 <div className="team-social d-flex">
                                     <a className="btn btn-square rounded-circle me-2" href="">

@@ -9,7 +9,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Link } from "@inertiajs/inertia-react";
 
 // icons
-import {AiOutlineEye} from "react-icons/ai"
+import { AiOutlineEye } from "react-icons/ai"
 
 export default function Services() {
     const [show, setShow] = useState(false);
@@ -43,7 +43,7 @@ export default function Services() {
             <Nav />
             {/* Page Header Start */}
             <div
-                className="container-fluid page-header page-header-service py-5 mb-5 wow fadeIn"
+                className="container-fluid  page-header page-header-service py-5 mb-5 wow fadeIn"
                 data-wow-delay="0.1s"
             >
                 <div className="container text-center mt-5 py-5">
@@ -90,26 +90,26 @@ export default function Services() {
                                             <div className="serviceTitle border">
                                                 <h4>{item.name}</h4>
                                             </div>
-                                            <img className=""  src={item.img1} alt="" />
+                                            <img className="" src={item.img1} alt="" />
                                         </div>
-                                        <div className="service-text rounded p-5">
-                                            <div className="btn-square  rounded-circle mx-auto mb-3"
-                                            onClick={() => doOpen(
-                                                item.name,
-                                                item.id,
-                                                item.description,
-                                                item.img1,
-                                                item.img2,
-                                                item.img3
-                                            )}>
-                                              
+                                        <div className="service-text rounded px-2 py-3">
+                                            <div className="btn-square rounded-circle mx-auto mb-3"
+                                                onClick={() => doOpen(
+                                                    item.name,
+                                                    item.id,
+                                                    item.description,
+                                                    item.img1,
+                                                    item.img2,
+                                                    item.img3
+                                                )}>
+
                                                 <AiOutlineEye
-                                                    
-                                                    style={{ 
+
+                                                    style={{
                                                         cursor: "pointer",
-                                                        width:"2rem",
-                                                        height:"2rem",
-                                                        color:"orangered"
+                                                        width: "2rem",
+                                                        height: "2rem",
+                                                        color: "orangered"
                                                     }}
                                                 />
                                             </div>
@@ -146,7 +146,7 @@ export default function Services() {
                                                     <Carousel.Item>
                                                         <img
                                                             className="img-fluid w-full"
-                                                            // style={{ height: "30rem", width: "50rem" }}
+                                                            style={{ height: "30rem", width: "50rem" }}
                                                             src={image1}
                                                             alt="First slide"
                                                         // style={{maxHeight:"25rem",width:"100%"}}
@@ -156,7 +156,7 @@ export default function Services() {
                                                     <Carousel.Item>
                                                         <div className="">
                                                             <img
-                                                                // className="img-fluid w-full "
+                                                                className="img-fluid w-full "
                                                                 style={{ height: "30rem", width: "50rem" }}
                                                                 src={image2}
                                                                 alt="Second slide mx-auto"
@@ -167,7 +167,7 @@ export default function Services() {
                                                     </Carousel.Item>
                                                     <Carousel.Item>
                                                         <img
-                                                            // className="img-fluid w-full"
+                                                            className="img-fluid w-full"
                                                             style={{ height: "30rem", width: "50rem" }}
                                                             src={image3}
                                                             alt="Third slide"
