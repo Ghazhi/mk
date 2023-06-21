@@ -140,7 +140,7 @@ function Services() {
             children: /* @__PURE__ */ jsxs("div", { className: "service-item rounded d-flex h-100", children: [
               /* @__PURE__ */ jsxs("div", { className: "service-img rounded", children: [
                 /* @__PURE__ */ jsx("div", { className: "serviceTitle border", children: /* @__PURE__ */ jsx("h4", { children: item.name }) }),
-                /* @__PURE__ */ jsx("img", { className: "img-fluid", style: { width: "37rem", height: "30rem" }, src: item.img1, alt: "" })
+                /* @__PURE__ */ jsx("img", { className: "", src: item.img1, alt: "" })
               ] }),
               /* @__PURE__ */ jsxs("div", { className: "service-text rounded p-5", children: [
                 /* @__PURE__ */ jsx(
@@ -185,7 +185,7 @@ function Services() {
               /* @__PURE__ */ jsx(Carousel.Item, { children: /* @__PURE__ */ jsx(
                 "img",
                 {
-                  style: { height: "30rem", width: "50rem" },
+                  className: "img-fluid w-full",
                   src: image1,
                   alt: "First slide"
                 }

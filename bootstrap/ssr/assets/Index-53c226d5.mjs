@@ -21,12 +21,8 @@ function Index() {
         "data-bs-ride": "carousel",
         children: [
           /* @__PURE__ */ jsxs("div", { className: "carousel-inner", children: [
-            /* @__PURE__ */ jsxs("div", { className: "carousel-item active", children: [
-              /* @__PURE__ */ jsx("img", { className: "img-fluid ", style: { width: "100%", height: "40rem" }, src: "template/img/banners/3.jpg", alt: "Image" }),
-              /* @__PURE__ */ jsx("div", { className: "carousel-caption" })
-            ] }),
-            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "img-fluid ", style: { width: "100%", height: "40rem" }, src: "template/img/banners/4.jpg", alt: "Image" }) }),
-            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "img-fluid ", style: { width: "100%", height: "40rem" }, src: "template/img/banners/about.jpg", alt: "Image" }) }),
+            /* @__PURE__ */ jsx("div", { className: "carousel-item active", children: /* @__PURE__ */ jsx("img", { className: "w-100", src: "template/img/banners/3.jpg", alt: "Image" }) }),
+            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "w-100", src: "template/img/banners/4.jpg", alt: "Image" }) }),
             /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "img-fluid ", style: { width: "100%", height: "40rem" }, src: "template/img/banners/portfolio.jpg", alt: "Image" }) })
           ] }),
           /* @__PURE__ */ jsxs(

@@ -552,7 +552,7 @@ default_1(
     page,
     render: ReactDOMServer.renderToString,
     title: (title) => `${title} - ${appName}`,
-    resolve: (name) => resolvePageComponent(`./Pages/${name}.jsx`, /* @__PURE__ */ Object.assign({ "./Pages/Website/About.jsx": () => import("./assets/About-27d41b7b.mjs"), "./Pages/Website/Imgs.jsx": () => import("./assets/Imgs-d1c28ad4.mjs"), "./Pages/Website/Index.jsx": () => import("./assets/Index-d4d8e73d.mjs"), "./Pages/Website/Portfolio.jsx": () => import("./assets/Portfolio-129adb6e.mjs"), "./Pages/Website/Quote.jsx": () => import("./assets/Quote-8683c08b.mjs"), "./Pages/Website/Services.jsx": () => import("./assets/Services-d9e97acb.mjs") })),
+    resolve: (name) => resolvePageComponent(`./Pages/${name}.jsx`, /* @__PURE__ */ Object.assign({ "./Pages/Website/About.jsx": () => import("./assets/About-2bf2d1e0.mjs"), "./Pages/Website/Imgs.jsx": () => import("./assets/Imgs-d1c28ad4.mjs"), "./Pages/Website/Index.jsx": () => import("./assets/Index-53c226d5.mjs"), "./Pages/Website/Portfolio.jsx": () => import("./assets/Portfolio-129adb6e.mjs"), "./Pages/Website/Quote.jsx": () => import("./assets/Quote-8683c08b.mjs"), "./Pages/Website/Services.jsx": () => import("./assets/Services-08885c58.mjs") })),
     setup: ({ App, props }) => {
       global.route = (name, params, absolute) => P(name, params, absolute, {
         ...page.props.ziggy,
