@@ -1,6 +1,6 @@
 import { j as jsxs, a as jsx } from "../ssr.mjs";
 import { useState } from "react";
-import { N as Nav, F as Footer } from "./Nav-980e69a6.mjs";
+import { N as Nav, F as Footer } from "./Nav-e2495d23.mjs";
 import "react-responsive-modal";
 import "react/jsx-runtime";
 import "react-dom/server";
@@ -72,9 +72,9 @@ function About() {
           ]
         }
       ),
-      /* @__PURE__ */ jsxs("div", { className: "d-flex", children: [
-        /* @__PURE__ */ jsx("div", { className: "col-4", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
-          /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Mr. Emmanuel Mork	" }),
+      /* @__PURE__ */ jsxs("div", { className: "row", children: [
+        /* @__PURE__ */ jsx("div", { className: "col-4 px-3", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
+          /* @__PURE__ */ jsx("h6", { className: "mb-0", children: "Mr. Emmanuel Mork	" }),
           /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  CEO " }),
           /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
             /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
@@ -82,8 +82,8 @@ function About() {
             /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
           ] })
         ] }) }),
-        /* @__PURE__ */ jsx("div", { className: "col-4", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
-          /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Mrs. Sheila Mork	" }),
+        /* @__PURE__ */ jsx("div", { className: "col-4 px-3", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
+          /* @__PURE__ */ jsx("h6", { className: "mb-0", children: "Mrs. Sheila Mork	" }),
           /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  Secretary " }),
           /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
             /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),
@@ -91,8 +91,8 @@ function About() {
             /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-instagram" }) })
           ] })
         ] }) }),
-        /* @__PURE__ */ jsx("div", { className: "", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
-          /* @__PURE__ */ jsx("h4", { className: "mb-0", children: "Rita Adzo Yiborku	" }),
+        /* @__PURE__ */ jsx("div", { className: "col-4  px-3", children: /* @__PURE__ */ jsxs("div", { className: "team-text", children: [
+          /* @__PURE__ */ jsx("h6", { className: "mb-0", children: "Rita Adzo Yiborku	" }),
           /* @__PURE__ */ jsx("p", { className: "text-primary", children: "  Client Services " }),
           /* @__PURE__ */ jsxs("div", { className: "team-social d-flex", children: [
             /* @__PURE__ */ jsx("a", { className: "btn btn-square rounded-circle me-2", href: "", children: /* @__PURE__ */ jsx("i", { className: "fab fa-facebook-f" }) }),

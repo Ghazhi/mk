@@ -68,12 +68,7 @@ function Footer() {
       }
     ),
     /* @__PURE__ */ jsx("div", { className: "container-fluid copyright py-4", children: /* @__PURE__ */ jsx("div", { className: "container", children: /* @__PURE__ */ jsxs("div", { className: "row", children: [
-      /* @__PURE__ */ jsxs("div", { className: "col-md-6 text-center text-md-start mb-3 mb-md-0", children: [
-        "©",
-        " ",
-        /* @__PURE__ */ jsx("a", { className: "border-bottom", href: "#", children: "Mork Impression" }),
-        ", All Right Reserved."
-      ] }),
+      /* @__PURE__ */ jsx("div", { className: "col-md-6 text-center text-md-start mb-3 mb-md-0", children: "All Right Reserved." }),
       /* @__PURE__ */ jsxs("div", { className: "col-md-6 text-center text-md-end", children: [
         "Designed by",
         " ",

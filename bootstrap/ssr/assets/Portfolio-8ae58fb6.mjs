@@ -1,6 +1,6 @@
 import { j as jsxs, a as jsx, F as Fragment } from "../ssr.mjs";
 import { Link } from "@inertiajs/inertia-react";
-import { N as Nav, F as Footer } from "./Nav-980e69a6.mjs";
+import { N as Nav, F as Footer } from "./Nav-e2495d23.mjs";
 import "react-bootstrap/Modal";
 import "react-bootstrap/Carousel";
 import { useState } from "react";
