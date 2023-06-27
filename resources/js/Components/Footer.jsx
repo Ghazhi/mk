@@ -5,8 +5,8 @@ export default function Footer() {
             <div
                 className="container-fluid  text-light footer mt-5 py-5 wow fadeIn"
                 data-wow-delay="0.1s"
-                // style={{backgroundColor:"rgb(236,42,145)"}}
-                style={{backgroundColor:"rgb(236,42,145)"}}
+                style={{backgroundColor:"orangered"}}
+                // style={{backgroundColor:"rgb(112, 31, 2)"}}
             >
                 <div className="container py-5">
                     <div className="row g-5">

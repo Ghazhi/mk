@@ -21,16 +21,19 @@ export default function Index() {
                     >
                         <div className="carousel-inner">
                             <div className="carousel-item active" >
-                                <img className="w-100" style={{ width: "100%", height: "40rem" }}  src="template/img/banners/3.jpg" alt="Image" />
+                                <img className="w-100" style={{ width: "100%", height: "40rem" }}  src="template/img/portfolio/Resized/vehicle.jpg" alt="Image" />
                             </div>
                             <div className="carousel-item"  >
                                 <img className="w-100" style={{ width: "100%", height: "40rem" }} src="template/img/portfolio/Resized/commercial.jpg"  alt="Image" />
                             </div>
-                            {/* <div className="carousel-item"  >
-                                <img className="w-100" src="template/img/banners/about.jpg" alt="Image" />
-                            </div> */}
+                            <div className="carousel-item"  >
+                                <img className="w-100" style={{ width: "100%", height: "40rem" }} src="template/img/portfolio/Resized/dtf.jpg" alt="Image" />
+                            </div>
                             <div className="carousel-item"  >
                                 <img className="w-100" style={{ width: "100%", height: "40rem" }} src="template/img/portfolio/Resized/gifts.jpg" alt="Image" />
+                            </div>
+                            <div className="carousel-item"  >
+                                <img className="w-100" style={{ width: "100%", height: "40rem" }} src="template/img/portfolio/Resized/Large.jpg" alt="Image" />
                             </div>
 
                         </div>
