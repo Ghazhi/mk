@@ -3,14 +3,14 @@
     <head>
 
         <meta charset="utf-8">
-        <link rel="icon" type="image/jpg" href="/images/logo.png">
+        <link rel="icon" type="image/jpg" href="template/img/Logo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title inertia>{{ config('app.name', 'Mork Impression') }}</title>
 <!-- 
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" />
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" /> -->
- <!-- Stylesheet -->
+ <!-- Stylesheet --> 
  <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
