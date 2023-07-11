@@ -1,6 +1,6 @@
 import { j as jsxs, a as jsx } from "../ssr.mjs";
 import { Link } from "@inertiajs/inertia-react";
-import { N as Nav, F as Footer } from "./Nav-e2495d23.mjs";
+import { N as Nav, F as Footer } from "./Nav-e8c912fc.mjs";
 import "react/jsx-runtime";
 import "react-dom/server";
 import "process";

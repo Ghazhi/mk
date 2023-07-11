@@ -1,6 +1,6 @@
 import { j as jsxs, a as jsx, F as Fragment } from "../ssr.mjs";
 import { Link } from "@inertiajs/inertia-react";
-import { N as Nav, F as Footer } from "./Nav-e2495d23.mjs";
+import { N as Nav, F as Footer } from "./Nav-e8c912fc.mjs";
 import "react-bootstrap/Modal";
 import "react-bootstrap/Carousel";
 import { useState } from "react";
@@ -14,7 +14,10 @@ const styles = "";
 const keenSlider_min = "";
 const Files = [
   "template/img/banners/3.jpg",
+  "template/img/portfolio/Resized/vehicle.jpg",
   "template/img/portfolio/Branding/Branding.jpg",
+  //
+  "template/img/portfolio/Resized/dtf.jpg",
   "template/img/portfolio/Embroidery/Embroidery1.jpg",
   "template/img/portfolio/Embroidery/Embroidery2.jpg",
   "template/img/portfolio/Embroidery/Embroidery3.jpg",
@@ -27,11 +30,11 @@ const Files = [
   "template/img/portfolio/Embroidery/Embroidery10.jpg",
   "template/img/portfolio/Embroidery/Embroidery11.jpg",
   // 
-  "template/img/banners/about.jpg",
+  "template/img/portfolio/Resized/commercial.jpg",
   "template/img/portfolio/Off/Offset&Digital1.jpg",
   "template/img/portfolio/Off/Offset&Digital2.jpg",
   // 
-  "template/img/banners/portfolio.jpg",
+  "template/img/portfolio/Resized/gifts.jpg",
   "template/img/portfolio/Mug&tomblerPress/Mug&tomblerPress1.jpg",
   "template/img/portfolio/Mug&tomblerPress/Mug&tomblerPress2.jpg",
   "template/img/portfolio/Mug&tomblerPress/Mug&tomblerPress3.jpg",

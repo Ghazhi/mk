@@ -1,5 +1,5 @@
 import { j as jsxs, a as jsx } from "../ssr.mjs";
-import { N as Nav, F as Footer } from "./Nav-e2495d23.mjs";
+import { N as Nav, F as Footer } from "./Nav-e8c912fc.mjs";
 import { GiArcheryTarget, GiWorld, GiSandsOfTime, GiReceiveMoney } from "react-icons/gi";
 import { MdGppGood, MdOutlineDraw } from "react-icons/md";
 import { BiTargetLock } from "react-icons/bi";
@@ -21,9 +21,11 @@ function Index() {
         "data-bs-ride": "carousel",
         children: [
           /* @__PURE__ */ jsxs("div", { className: "carousel-inner", children: [
-            /* @__PURE__ */ jsx("div", { className: "carousel-item active", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/banners/3.jpg", alt: "Image" }) }),
+            /* @__PURE__ */ jsx("div", { className: "carousel-item active", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/portfolio/Resized/vehicle.jpg", alt: "Image" }) }),
             /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/portfolio/Resized/commercial.jpg", alt: "Image" }) }),
-            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/portfolio/Resized/gifts.jpg", alt: "Image" }) })
+            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/portfolio/Resized/dtf.jpg", alt: "Image" }) }),
+            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/portfolio/Resized/gifts.jpg", alt: "Image" }) }),
+            /* @__PURE__ */ jsx("div", { className: "carousel-item", children: /* @__PURE__ */ jsx("img", { className: "w-100", style: { width: "100%", height: "40rem" }, src: "template/img/portfolio/Resized/Large.jpg", alt: "Image" }) })
           ] }),
           /* @__PURE__ */ jsxs(
             "button",
