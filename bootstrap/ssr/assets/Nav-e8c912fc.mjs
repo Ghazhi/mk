@@ -7,7 +7,7 @@ function Footer() {
       {
         className: "container-fluid  text-light footer mt-5 py-5 wow fadeIn",
         "data-wow-delay": "0.1s",
-        style: { backgroundColor: "rgb(236,42,145)" },
+        style: { backgroundColor: "orangered" },
         children: /* @__PURE__ */ jsx("div", { className: "container py-5", children: /* @__PURE__ */ jsxs("div", { className: "row g-5", children: [
           /* @__PURE__ */ jsxs("div", { className: "col-lg-4 col-md-6", children: [
             /* @__PURE__ */ jsx("h4", { className: "text-white mb-4", children: "Our Office" }),
