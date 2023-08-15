@@ -41,7 +41,7 @@ export default function About() {
                         <div className="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
                             <img
                                 className="img-fluid rounded"
-                                style={{ height: "35rem", }}
+                                // style={{ height: "35rem", }}
                                 data-wow-delay="0.1s"
                                 src="template/img/portfolio/Mug&tomblerPress/Mug&tomblerPress6.jpg"
                             />
